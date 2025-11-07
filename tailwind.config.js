@@ -5,8 +5,9 @@ export default {
     "./index.html",
     "./App.tsx",
     "./main.tsx",
-    "./components/*/.{ts,tsx}",
-    "./lib/*/.{ts,tsx}",
+    "./src/*/.{js,ts,jsx,tsx}",
+    "./components/*/.{js,ts,jsx,tsx}",
+    "./lib/*/.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
