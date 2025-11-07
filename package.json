@@ -58,6 +58,7 @@
     "vite": "^6.0.1",
     "tailwindcss": "^4.0.0",
     "autoprefixer": "^10.4.20",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "patch-package": "^8.0.0"
   }
 }
