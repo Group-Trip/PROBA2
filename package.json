@@ -5,11 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "patch-package || true"
-  },
-  "overrides": {
-    "rollup": "3.29.4"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -53,8 +49,7 @@
     "input-otp": "^1.2.4",
     "embla-carousel-react": "^8.0.0",
     "vaul": "^0.9.0",
-    "cmdk": "^1.0.0",
-    "patch-package": "^8.0.0"
+    "cmdk": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
