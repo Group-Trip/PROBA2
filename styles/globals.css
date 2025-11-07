@@ -84,13 +84,13 @@ input, textarea, select {
 }
 
 /* Ensure all content is interactive on iOS */
-{
+html * {
   pointer-events: auto;
 }
 
 /* Specifically for iOS Safari - force click events */
 @supports (-webkit-touch-callout: none) {
-{
+  html * {
     -webkit-tap-highlight-color: rgba(0,0,0,0.05);
     -webkit-user-select: auto;
   }
@@ -115,7 +115,7 @@ textarea {
 }
 
 /* Fix for iOS scroll */
-{
+html * {
   -webkit-overflow-scrolling: touch;
 }
 
