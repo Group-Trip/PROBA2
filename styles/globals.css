@@ -191,6 +191,14 @@ div {
 }
 
 /* Utility Classes */
+/* SVG and Icons */
+svg {
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+}
 .min-h-screen {
   min-height: 100vh;
 }
