@@ -1,15 +1,22 @@
-/* SVG and Icons */
+/* SVG and Icons - Critical for Lucide React */
 svg {
-  display: inline-block;
-  vertical-align: middle;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
-  flex-shrink: 0;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2 !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+  flex-shrink: 0 !important;
+}
+
+/* Lucide icons specific fixes */
+svg[class*="lucide"] {
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2 !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
 }
 
 /* Lucide icons specific fixes */
