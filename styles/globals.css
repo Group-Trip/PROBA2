@@ -166,9 +166,9 @@ a,
 input,
 select,
 textarea,
-[role="button"],
-[type="button"],
-[type="submit"] {
+[role='button'],
+[type='button'],
+[type='submit'] {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
   touch-action: manipulation;
   user-select: auto;
