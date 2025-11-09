@@ -49,7 +49,7 @@
 }
 
 /* Base Styles */
-{
+* {
   border-color: hsl(var(--border));
 }
 
