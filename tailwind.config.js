@@ -4,9 +4,21 @@ module.exports = {
     "./index.html",
     "./App.tsx",
     "./main.tsx",
-    "./src/*/.{js,ts,jsx,tsx}",
     "./components/*/.{js,ts,jsx,tsx}",
     "./lib/*/.{js,ts,jsx,tsx}",
+    "./utils/*/.{js,ts,jsx,tsx}",
+  ],
+  safelist: [
+    'bg-gradient-to-br',
+    'from-blue-500',
+    'via-turquoise-500',
+    'to-turquoise-400',
+    'text-blue-600',
+    'text-turquoise-500',
+    'bg-blue-500',
+    'bg-blue-600',
+    'bg-turquoise-500',
+    'hover:bg-blue-700',
   ],
   theme: {
     extend: {
