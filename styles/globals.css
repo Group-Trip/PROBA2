@@ -49,7 +49,7 @@
 }
 
 /* Base Styles */
-* {
+{
   border-color: hsl(var(--border));
 }
 
@@ -190,7 +190,6 @@ div {
   -webkit-user-select: auto;
 }
 
-/* Utility Classes */
 /* SVG and Icons */
 svg {
   display: inline-block;
@@ -199,6 +198,8 @@ svg {
   width: 1em;
   height: 1em;
 }
+
+/* Utility Classes */
 .min-h-screen {
   min-height: 100vh;
 }
